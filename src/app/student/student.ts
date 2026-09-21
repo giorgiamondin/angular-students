@@ -19,4 +19,12 @@ export class Student {
     { name: "Gastone", city: "Paperopoli", gender: "M", present: true },
     { name: "Minnie", city: "Topolinia", gender: "F", present: true }];
 
-}
+    getStyle(s:any) {
+        return {
+            'backgroundColor': s.gender == 'F' ? this.F_COLOR : this.M_COLOR,
+            'textDecoration' : s.present ? 'none' :'underline',
+            'font-weight' : s.present ? 'none' : 'bold'
+        };
+    };
+
+};
