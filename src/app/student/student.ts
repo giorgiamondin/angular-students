@@ -9,6 +9,10 @@ import { CommonModule } from '@angular/common';
     styleUrl: './student.css'
 })
 export class Student {
+
+    M_COLOR = "lightBlue";
+    F_COLOR = "pink";
+    
     students: any[] = [{ name: "Pippo", city: "Topolinia", gender: "M", present: true },
     { name: "Pluto", city: "Topolinia", gender: "M", present: true },
     { name: "Paperina", city: "Paperopoli", gender: "F", present: true },
