@@ -12,9 +12,9 @@ export class Student {
 
     M_COLOR = "lightBlue";
     F_COLOR = "pink";
-    
+
     students: any[] = [{ name: "Pippo", city: "Topolinia", gender: "M", present: true },
-    { name: "Pluto", city: "Topolinia", gender: "M", present: true },
+    { name: "Pluto", city: "Topolinia", gender: "M", present: false },
     { name: "Paperina", city: "Paperopoli", gender: "F", present: true },
     { name: "Gastone", city: "Paperopoli", gender: "M", present: true },
     { name: "Minnie", city: "Topolinia", gender: "F", present: true }];
